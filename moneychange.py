@@ -1,6 +1,6 @@
 from typing import Tuple, Dict, Union
 import os
-#from dotenv import load_dotenv
+from dotenv import load_dotenv
 import requests
 import json
 import streamlit as st
