@@ -1,6 +1,6 @@
 from typing import Tuple, Dict, Union
 import os
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import requests
 import json
 import streamlit as st
@@ -18,7 +18,7 @@ client = ChatCompletionsClient(
     credential=AzureKeyCredential(token),
 )
 
-load_dotenv()
+#load_dotenv()
 EXCHANGERATE_API_KEY = os.getenv('EXCHANGERATE_API_KEY')
 
 def get_exchange_rate(base: str, target: str, amount: str) -> Tuple:
