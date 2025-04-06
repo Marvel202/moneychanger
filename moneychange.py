@@ -157,7 +157,3 @@ if st.button("Submit"):
             st.error(f"Error: {result['message']}")
 
 
-# Submit button
-if st.button("Submit"):
-    # Display the input text below the text box
-    run_pipeline(user_input)
