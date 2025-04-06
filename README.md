@@ -48,7 +48,7 @@ A fun and intelligent currency conversion app powered by Azure AI that understan
 
 4. Run the app:
    ```bash
-   streamlit run app.py
+   streamlit run moneychanger.py
    ```
 
 ## 🧠 How It Works
